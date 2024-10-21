@@ -54,9 +54,9 @@ function generateMessage(noCount) {
   return messages[messageIndex];
 }
 
-// function changeImage(image) {
-//   catImg.src = `img/cat-${image}.jpg`;
-// }
+function changeImage(image) {
+  catImg.src = `img/cat-${image}.jpg`;
+}
 
 function updateNoButtonText() {
   noButton.innerHTML = generateMessage(noCount);
